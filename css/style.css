@@ -1,0 +1,596 @@
+
+
+html, body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* navbar css */
+.navbar {
+    background-color: #fff;
+    height: 64px;
+    padding: 0 24px
+}
+
+#slightChange {
+    color: gray;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar .hiddenItem li {
+    display: inline-flex;
+    justify-content: space-evenly;
+    padding: 10px 20px;
+    list-style-type: none;
+    visibility: hidden;
+    display: none;
+}
+
+/* banner css */
+#banner {
+    background-color: rgb(213, 212, 212);
+    padding: 32px 30px;
+}
+
+#banner .row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#banner .col1 {
+    flex-basis: 60%;
+}
+
+#banner .col1 img {
+    width: 95%;
+}
+
+#banner .col2 {
+    flex-basis: 40%;
+}
+
+.col2 h1 {
+    font-size: 50px;
+    font-weight: 300;
+    padding-bottom: 5px;
+}
+
+.col2 h3 {
+    font-size: 30px;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+
+.col2 button {
+    width: 90%;
+}
+
+/* main section css */
+#main {
+    padding: 32px 30px;
+}
+
+#main .row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* main col 1 */
+#main .col1 {
+    flex-basis: 60%;
+}
+
+#main .col1 img {
+    width: 95%;
+}
+
+.img1 {
+    display: block;
+}
+
+.img2 {
+    display: none
+}
+
+.col1 h2 {
+    font-size: 50px;
+    font-weight: 300;
+    padding-bottom: 5px;
+    margin-top: 32px;
+    margin-bottom: 24px;
+}
+
+/* main col2 */
+#main .col2 {
+    flex-basis: 40%;
+}
+
+/* col2 row1 */
+#main .col2 .row1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 0.5px solid gainsboro;
+    padding: 16px;
+}
+
+#main .col2 .row1 .col1 {
+    flex-basis: 35%;
+}
+
+#main .col2 .row1 .col1 img {
+    height: auto;
+}
+
+#main .col2 .row1 .col2 {
+    flex-basis: 65%;
+    margin-left: 10px;
+}
+
+.col2 .row1 .col2 h2 {
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.col2 .row1 .col2 p {
+    font-size: 20px;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+
+.col2 .row1 .col2 a {
+    text-decoration: none;
+    color: rgb(39, 184, 241);
+}
+
+
+/* col2 row2 */
+#main .col2 .row2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 0.5px solid gainsboro;
+    padding: 16px;
+}
+
+#main .col2 .row2 .col1 {
+    flex-basis: 35%;
+}
+
+#main .col2 .row2 .col1 img {
+    height: auto;
+}
+
+#main .col2 .row2 .col2 {
+    flex-basis: 65%;
+    margin-left: 10px;
+}
+
+.col2 .row2 .col2 h2 {
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.col2 .row2 .col2 p {
+    font-size: 20px;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+
+.col2 .row2 .col2 a {
+    text-decoration: none;
+    color: rgb(39, 184, 241);
+}
+
+/*  col2 row3 */
+
+#main .col2 .row3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 0.5px solid gainsboro;
+    padding: 16px;
+    background-color: gainsboro;
+}
+
+#main .col2 .row3 .col1 {
+    flex-basis: 35%;
+}
+
+#main .col2 .row3 .col1 img {
+    height: auto;
+}
+
+#main .col2 .row3 .col2 {
+    flex-basis: 65%;
+    margin-left: 10px;
+}
+
+.col2 .row3 .col2 h2 {
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.col2 .row3 .col2 p {
+    font-size: 20px;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+
+.col2 .row3 .col2 a {
+    text-decoration: none;
+    color: rgb(39, 184, 241);
+}
+
+/* courses css */
+#courses {
+    background-color: rgb(238, 237, 237);
+    padding-bottom: 32px;
+}
+#visibleCourses{
+    display: block;
+}
+.hiddenTab{
+    display: none;
+    padding: 16px;
+}
+.hiddenTab .box{
+    padding: 16px;
+    margin: 8px;
+    background-color: gainsboro;
+    
+}
+.hiddenTab .box h3{
+    font-weight: 900;   
+}
+
+#courses h2 {
+    font-size: 40px;
+    font-weight: 300px;
+    padding: 32px 0;
+}
+
+.card {
+    height: 21rem;
+    cursor: pointer;
+}
+
+/* courses row 1 */
+#courses .row1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+
+
+/* courses row1 col1*/
+
+#courses .row1 .col1 {
+    width: 20rem;
+    margin-right: 32px;
+}
+
+
+/* courses row1 col2*/
+#courses .row1 .col2 {
+    width: 20rem;
+}
+
+
+/* courses row1 col3*/
+#courses .row1 .col3 {
+    width: 20rem;
+    margin-left: 32px;
+}
+
+
+/* courses row 2 */
+#courses .row2 {
+    display: flex;
+    justify-content: center;
+}
+
+/* courses row2 col1*/
+
+#courses .row2 .col1 {
+    width: 20rem;
+    margin-right: 32px;
+}
+
+
+/* courses row2 col2*/
+#courses .row2 .col2 {
+    width: 20rem;
+}
+
+
+/* courses row2 col3*/
+#courses .row2 .col3 {
+    width: 20rem;
+    margin-left: 32px;
+}
+
+/* thesis css */
+#thesis {
+    padding: 32px 30px;
+}
+#hiddenThesis{
+    display: block;
+}
+
+.video{
+    display: none;
+}
+
+#thesis h2 {
+    font-size: 40px;
+    font-weight: 300px;
+    padding: 32px 0px;
+}
+
+#thesis .row {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+/* thesis row col1 */
+#thesis .row .col1 {
+    flex-basis: 60%;
+}
+
+#thesis .row .col1 video {
+    width: 95%;
+}
+
+#thesis .row .col1 h2 {
+    font-size: 50px;
+    font-weight: 300;
+    padding-bottom: 5px;
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+
+/* thesis row col2 */
+#thesis .row .col2 {
+    flex-basis: 40%;
+}
+
+/* thesis row col2 row1 */
+#thesis .row .col2 .row1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 0.5px gainsboro;
+    padding: 16px;
+    background-color: gainsboro;
+}
+
+#thesis .col2 .row1 .col1 img {
+    height: auto;
+}
+
+#thesis .col2 .row1 .col2 {
+    flex-basis: 65%;
+    margin-left: 10px;
+}
+
+.col2 .row1 .col2 h2 {
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.col2 .row1 .col2 p {
+    font-size: 20px;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+
+
+
+/* thesis row col2 row2 */
+#thesis .row .col2 .row2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 0.5px gainsboro;
+    padding: 16px;
+}
+
+#thesis .col2 .row2 .col1 img {
+    height: auto;
+}
+
+#thesis .col2 .row2 .col2 {
+    flex-basis: 65%;
+    margin-left: 10px;
+}
+
+.col2 .row2 .col2 h2 {
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.col2 .row2 .col2 p {
+    font-size: 20px;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+
+/* footer css */
+footer {
+    margin: 16px 24px 32px 0;
+
+}
+
+footer p {
+    display: inline;
+}
+
+footer ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+footer ul li {
+    float: right;
+}
+
+footer ul li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding-left: 16px;
+}
+
+
+/* Mobile View */
+
+@media only screen and (max-width:480px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    /* navbar */
+    #nav {
+        display: none;
+    }
+
+    .navbar .hiddenItem li {
+        visibility: visible;
+        display: inline;
+    }
+
+    /* banner */
+    #banner {
+        padding: 0 0 32px 0;
+    }
+
+    #banner .row .col1 img {
+        width: 100vw;
+    }
+
+    #banner .row .col2 {
+        display: contents;
+        justify-content: space-around;
+    }
+
+    .col2 h1 {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .col2 h3 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    /* main */
+    #main #mainCol1 {
+        display: none;
+        
+    }
+    .img1 {
+        display: none;
+    }
+    .img2 {
+        display: block;
+    }
+    /* row1 */
+    #main .col2 .row1 {
+        display: block;
+        padding: auto;
+        border:0!important;
+    }
+
+    #main .col2 .row1 .col1 {
+        width: 100vw;     
+    }
+      
+    #main .col2 .row1 .col1 img{
+        width: 80vw;
+    }
+
+   
+    
+    /* row2 */
+    #main .col2 .row2 {
+        display: block;
+        padding: auto;
+        border:0!important;
+    }
+
+    #main .col2 .row2 .col1 {
+        width: 100vw;       
+    }
+      
+    #main .col2 .row2 .col1 img{
+        width: 80vw;
+    }
+
+    /* row3 */
+    #main .col2 .row3 {
+        display: block;
+        border:0!important;
+        background-color: #fff;
+    }
+
+    #main .col2 .row3 .col1 {
+        width: 100vw; 
+    }
+      
+    #main .col2 .row3 .col1 img{
+        width: 80vw;  
+    }
+
+    /* courses */
+    #courses{
+        background-color: #fff;
+    }
+    #visibleCourses{
+        display: none;
+    }
+    .hiddenTab {
+        display: block;
+    }
+
+    /* thesis */
+    #hiddenThesis{
+        display: none;
+    }
+    .video{
+        display: block;
+        padding: 0;
+        margin: 0;
+    }
+
+    /* footer */
+    footer{
+        text-align: center;
+    }
+    ul li{
+        display: none;
+    }
+
+}
